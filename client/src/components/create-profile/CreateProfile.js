@@ -123,14 +123,77 @@ class CreateProfile extends Component {
 
     // Select options for status
     const options = [
-      { label: '* Select Professional Status', value: 0 },
-      { label: 'Developer', value: 'Developer' },
-      { label: 'Junior Developer', value: 'Junior Developer' },
-      { label: 'Senior Developer', value: 'Senior Developer' },
-      { label: 'Manager', value: 'Manager' },
-      { label: 'Student or Learning', value: 'Student or Learning' },
-      { label: 'Instructor or Teacher', value: 'Instructor or Teacher' },
-      { label: 'Intern', value: 'Intern' },
+       { label: '* Select Freelance Service', value: 0 },
+      { label: 'Accountant', value: 'Accountant' },
+      { label: 'Travel Writer', value: 'Travel Writer' },
+      { label: 'English Teacher', value: 'English Teacher' },
+      { label: 'Graphic Designer', value: 'Graphic Designer' },
+      { label: 'Photographer', value: 'Photographer' },
+      { label: 'Blogger', value: 'Blogger' },
+      { label: 'Elance worker', value: 'Elance worker' },
+        {
+          label: 'Musician',
+          value: 'Musician'
+        }, {
+          label: 'Author',
+          value: 'Author'
+        }, {
+          label: 'Interpreter',
+          value: 'Interpreter'
+        }, {
+          label: 'Tour guide',
+          value: 'Tour guide'
+        }, {
+          label: 'Film Maker',
+          value: 'Film Maker'
+        }, {
+          label: 'Youtube sensation',
+          value: 'Youtube sensation'
+        }, {
+          label: 'Virtual Assistant',
+          value: 'Virtual Assistant'
+        }, {
+          label: 'Volunteer',
+          value: 'Volunteer'
+        }, {
+          label: 'NGO worker ',
+          value: 'NGO worker '
+        }, {
+          label: 'Etsy Shop Owner',
+          value: 'Etsy Shop Owner'
+        },
+        {
+          label: 'Busker',
+          value: 'Busker'
+        }, {
+          label: 'Yoga Instructor',
+          value: 'Yoga Instructor'
+        }, {
+          label: 'Face painter',
+          value: 'Face painter'
+        }, {
+          label: 'Make-Up Artist',
+          value: 'Make-Up Artist'
+        }, {
+          label: 'Hair-stylest',
+          value: 'Hair-stylest'
+        },
+        {
+          label: 'Catering',
+          value: 'Catering'
+        },
+        {
+          label: 'Web-Developer',
+          value: 'Web-Developer'
+        },
+        {
+          label: 'Book Keeper',
+          value: 'Book Keeper'
+        },
+        {
+          label: 'Painter',
+          value: 'Painter'
+        },
       { label: 'Other', value: 'Other' }
     ];
 

@@ -17,12 +17,15 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="display-3 mb-4">Developer Connector</h1>
+                <h1 className="display-3 mb-4">Local Network Hub</h1>
                 <p className="lead">
-                  {' '}
-                  Create a developer profile/portfolio, share posts and get help
-                  from other developers
+                    {' '}
+                  Provider - SignUp and creat a profile whereby seekers will view it and employ your services 
+                  <br/>
+                  Seekers - Search for the service you need through clicking on the providers profile link bar and browse through their profiles
                 </p>
+                <br/>
+                <em>Pleas Note that this application is still under production, much changes are going to happen, functionalities like direct messages, followers, media upload, the user interface etc are still yet to be implimnted, they are already built, but they still need to be included in the project files</em> <strong>-Jabulani Setaka(Founder and Creator)</strong>
                 <hr />
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
                   Sign Up
