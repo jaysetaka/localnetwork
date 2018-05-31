@@ -16,7 +16,7 @@ class Landing extends Component {
         <div className="dark-overlay landing-inner text-light">
           <div className="container">
             <div className="row">
-              <div className="col-md-12 text-center header-content">
+              <div className="col-md-12 text-center">
                 <h1 className="display-3 mb-4">Local Network Hub</h1>
                 <p className="lead">
                     {' '}
@@ -25,7 +25,7 @@ class Landing extends Component {
                   Seekers - Search for the service you need through clicking on the providers profile link bar and browse through their profiles
                 </p>
                 <br/>
-                <em className="d-none d-md-block">Pleas Note that this application is still under production, much changes are going to happen, functionalities like direct messages, followers, media upload, the user interface etc are still yet to be implimnted, they are already built, but they still need to be included in the project files</em> <strong>-Jabulani Setaka(Founder and Creator)</strong>
+                <em>Pleas Note that this application is still under production, much changes are going to happen, functionalities like direct messages, followers, media upload, the user interface etc are still yet to be implimnted, they are already built, but they still need to be included in the project files</em> <strong>-Jabulani Setaka(Founder and Creator)</strong>
                 <hr />
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
                   Sign Up
