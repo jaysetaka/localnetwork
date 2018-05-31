@@ -43,10 +43,10 @@ body{
 }
 @media only screen and (max-width: 480px) {
   .landing .header-content h1 {
-      font-size: 13px;    
+      font-size: 10px;    
   }
   .landing .header-content p{
-    font-size: 10px;
+    font-size: 8px;
   }
  
 }
