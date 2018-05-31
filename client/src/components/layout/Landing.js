@@ -26,7 +26,7 @@ class Landing extends Component {
                 </p>
                 <br/>
                 <em className="d-none d-md-block">Pleas Note that this application is still under production, much changes are going to happen, functionalities like direct messages, followers, media upload, the user interface etc are still yet to be implimnted, they are already built, but they still need to be included in the project files</em> 
-                <hr />
+                
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
                   Sign Up
                 </Link>
