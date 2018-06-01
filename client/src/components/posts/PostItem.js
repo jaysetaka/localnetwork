@@ -4,13 +4,11 @@ import { connect } from 'react-redux';
 import classnames from 'classnames';
 import { Link } from 'react-router-dom';
 import { deletePost, addLike, removeLike } from '../../actions/postActions';
-import { getCurrentProfile } from '../../actions/profileActions';
+
 
 class PostItem extends Component {
 
-  componentDidMount() {
-    this.props.getCurrentProfile();
-  }
+
 
   onDeleteClick(id) {
     this.props.deletePost(id);
@@ -35,8 +33,7 @@ class PostItem extends Component {
 
   render() {
     const { post, auth, showActions } = this.props;
-    const { profile } = this.props.profile;
-
+   
     return (
       <div className="card card-body mb-3">
         <div className="row">
@@ -53,7 +50,7 @@ class PostItem extends Component {
           </div>
          <div className="col-md-10">
                 <p className="lead text-muted">
-                <Link to={`/profile/${profile.handle}`}>{post.name}</Link>
+                {post.name}
                 </p>
                 <p>
                   {post.text}
@@ -90,7 +87,7 @@ PostItem.defaultProps = {
 };
 
 PostItem.propTypes = {
-   getCurrentProfile: PropTypes.func.isRequired,
+  
   deletePost: PropTypes.func.isRequired,
   addLike: PropTypes.func.isRequired,
   removeLike: PropTypes.func.isRequired,
@@ -99,10 +96,10 @@ PostItem.propTypes = {
 };
 
 const mapStateToProps = state => ({
-  profile: state.profile,
+ 
   auth: state.auth
 });
 
-export default connect(mapStateToProps, { deletePost, addLike, getCurrentProfile ,removeLike })(
+export default connect(mapStateToProps, { deletePost, addLike, removeLike })(
   PostItem
 );

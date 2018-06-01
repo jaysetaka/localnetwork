@@ -14,18 +14,19 @@ class CommentItem extends Component {
     return (
       <div className="card card-body mb-3">
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-2">
             <a href="profile.html">
               <img
-                className="rounded-circle d-none d-md-block"
+                className="rounded-circle"
                 src={comment.avatar}
                 alt=""
               />
             </a>
             <br />
-            <p className="text-center">{comment.name}</p>
+
           </div>
           <div className="col-md-10">
+            <p className="text-center">{comment.name}</p>
             <p className="lead">{comment.text}</p>
             {comment.user === auth.user.id ? (
               <button
