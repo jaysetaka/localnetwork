@@ -16,7 +16,8 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="display-3 mb-4">Local Network Hub</h1>
+                <h1 className="display-3 mb-3">LNH</h1>
+                <h6 className="display-1 mb-1">Local Net Hub</h6>
                 <hr/>
                  <button type="button" className="btn btn-dark btn-lg mb-5" id="modalView" data-toggle="modal" data-target="#exampleModal">
                   About
