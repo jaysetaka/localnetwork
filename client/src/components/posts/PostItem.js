@@ -35,6 +35,7 @@ class PostItem extends Component {
     const { post, auth, showActions } = this.props;
    
     return (
+   
       <div className="card card-body mb-3">
         <div className="row">
           <div className="col-2">
@@ -78,6 +79,7 @@ class PostItem extends Component {
                 </div>
         </div>
       </div>
+      
     );
   }
 }
