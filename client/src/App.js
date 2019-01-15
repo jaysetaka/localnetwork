@@ -101,7 +101,7 @@ class App extends Component {
               </Switch>
               <Route exact path="/not-found" component={NotFound} />
             </div>
-            <Footer />
+            
           </div>
         </Router>
       </Provider>

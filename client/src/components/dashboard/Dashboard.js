@@ -62,9 +62,16 @@ class Dashboard extends Component {
     return (
       <div className="dashboard">
         <div className="container">
+          <div className="card freelance-card mx-auto text-center shadow-lg p-3 mb-5 bg-white rounded">
+            <div className="card-body">
+              <h3 className="card-title">Your Profile</h3>
+              <h6 className="card-subtitle mb-2 text-muted">
+                Edit, Add, Delete
+                  </h6>
+            </div>
+          </div>
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4">Dashboard</h1>
               {dashboardContent}
             </div>
           </div>
