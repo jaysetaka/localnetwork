@@ -26,21 +26,23 @@ class Profiles extends Component {
       }
     }
 
-    return (
-      <div className="profiles">
+    return <div className="profiles">
         <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <h1 className="display-4 text-center">Freelancer Profiles</h1>
-              <p className="lead text-center">
-                Browse and connect with freelancers
-              </p>
+        <div className="card freelance-card mx-auto text-center shadow-lg p-3 mb-5 bg-white rounded">
+          <div className="card-body">
+            <h3 className="card-title">Freelancer Profiles</h3>
+            <h6 className="card-subtitle mb-2 text-muted">
+              Browse and connect with freelancers
+                  </h6>
+          </div>
+        </div>
+          <div className="row profile-items">
+            <div className="col">
               {profileItems}
             </div>
           </div>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 
