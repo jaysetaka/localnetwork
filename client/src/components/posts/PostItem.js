@@ -56,6 +56,7 @@ class PostItem extends Component {
                 <p>
                   {post.text}
                 </p>
+                <hr/>
                   {showActions ? (<span>
                   <button onClick={this.onLikeClick.bind(this, post._id)} type="button" className="btn btn-light mr-1">
                     <i className={classnames('fas fa-thumbs-up', {
