@@ -107,9 +107,9 @@ footer {
   background: #ecf0f1;
 }
 
-.profiles .freelance-card{
+/* .profiles .freelance-card{
   width: 35rem;
-}
+} */
 .form-control::placeholder {
   color: #bbb !important;
 }

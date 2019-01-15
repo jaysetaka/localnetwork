@@ -11,11 +11,6 @@ class ProfileItem extends Component {
         <div className="row">
           <div className="col-2 mx-auto">
             <img src={profile.user.avatar} alt="" className="rounded-circle" />
-            <div className="card-body">
-              <div className="card-text">
-                <div className="lead text-center">{profile.user.name}</div>
-              </div>
-            </div>
           </div>
         </div>
         <div className="container">
@@ -24,6 +19,7 @@ class ProfileItem extends Component {
               <div className="card mb-3">
                 <div className="card-body">
                   <div className="card-text text-center">
+                    <h2>{profile.user.name}</h2>
                     <h4>Occupation&Location</h4>
                     <p>
                       {profile.status} {isEmpty(profile.company) ? null : <span>
