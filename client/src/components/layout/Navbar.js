@@ -61,18 +61,12 @@ class Navbar extends Component {
       </ul>
     );
 
-    return (
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
+    return <nav className="navbar navbar-expand-sm navbar-dark mb-4">
         <div className="container">
           <Link className="navbar-brand" to="/">
             Local Network Hub
           </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#mobile-nav"
-          >
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
             <span className="navbar-toggler-icon" />
           </button>
 
@@ -88,8 +82,7 @@ class Navbar extends Component {
             {isAuthenticated ? authLinks : guestLinks}
           </div>
         </div>
-      </nav>
-    );
+      </nav>;
   }
 }
 

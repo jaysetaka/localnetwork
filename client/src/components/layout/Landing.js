@@ -55,7 +55,7 @@ class Landing extends Component {
                     </div>
                   </div>
                 </div>
-                <p className="lead d-none d-md-block">
+                <p className="lead d-none d-md-block text">
                   {" "}
                   Provider - SignUp and creat a profile whereby seekers will view it and employ your services
                   <br />
